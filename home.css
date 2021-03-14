@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+  scroll-snap-type: both mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.element {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-stop: slow;
+  scroll-snap-align: start;
+}
+img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
